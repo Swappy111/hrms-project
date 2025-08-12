@@ -48,6 +48,7 @@ const Login = () => {
         "https://68970434250b078c2040bd02.mockapi.io/hrms/users"
       );
       setUsers(res.data);
+      console.log(res.data)
     } catch (error) {
       console.log("Failed to Fetch Data.", error.message);
     }

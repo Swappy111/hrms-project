@@ -1,0 +1,25 @@
+/* theme.css */
+
+/* Light Mode (Default) */
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F7F9FC;
+  --accent: #0077B6;
+  --text-primary: #1B263B;
+  --text-secondary: #4A5A6A;
+  --border: #E3E8EF;
+  /* --duration: var(--duration);
+  transition: all var(--duration); */
+}
+
+/* Dark Mode (Navy Theme) */
+.dark {
+  --bg-primary: #091152;
+  --bg-secondary: #1B263B;
+  --accent: #00B4D8;
+  --text-primary: #E0E1DD;
+  --text-secondary: #A9B2C3;
+  --border: #2E4057;
+    /* --duration: var(--duration);
+  transition: all var(--duration); */
+}
